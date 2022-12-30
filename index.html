@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <button class="btn btn_login">Login</button>
+    <div class="modal">
+        <form action="" class="form form_animate">
+            <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+        
+            <div class="form_img"><img src="https://images.pexels.com/photos/1441151/pexels-photo-1441151.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="avatar"></div>
+        
+            <div class="form_group">
+                <label for="name">Nom</label>
+                <input type="text" required placeholder="Entre votre nom">
+            </div>
+            <div class="form_group">
+                <label for="mdp">mot de passe</label>
+                <input type="password" placeholder="Entre votre mot de passe">
+            </div>
+            <div class="form_group">
+                <button class="form_btn">Login</button>
+            </div>
+            <div class="form_group">
+                <label for=""><input type="checkbox">  Rester connecté</label>
+                
+            </div>
+            <div class="form_group form_group-flex">
+                <button class="btn_cancel btn">Login</button>
+                <span>Mot de passe <a href="#">oublié?</a></span>
+
+            </div>
+        </form>
+    </div>
+   
+    <script src="./main.js"></script>
+</body>
+</html>
